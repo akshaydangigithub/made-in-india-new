@@ -1,0 +1,102 @@
+.profile_image {
+    height: 120px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1687360728559-53fe4fedf36c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.chat {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #0160ad;
+}
+
+.chat i {
+    margin-right: 6px;
+    color: #90CAF9;
+}
+
+.btn button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 6px 0;
+    border-radius: 6px;
+    background-color: #d63f3f;
+    color: white;
+}
+
+.btn button:hover {
+    background-color: #db1010;
+}
+
+.products_main {
+    width: 100%;
+    padding: 0vmax 2vmax;
+    height: 100%;
+    margin: 0;
+}
+
+.btn2 {
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    padding: 6px 0;
+    font-size: 15px;
+    background-color: #F0F0F0;
+}
+
+.btn2:hover {
+    background-color: #cccccc;
+}
+
+.left {
+    position: sticky;
+    top: 0;
+    height: fit-content;
+}
+
+.left p {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5vmax 1vmax;
+    margin-bottom: 4px;
+}
+
+.left p:hover {
+    background-color: #E3E3E3;
+}
+
+.moreLinks {
+    padding: 0;
+    position: relative;
+    z-index: 99;
+    /* box-shadow: 0 3px 10px rgba(202, 6, 6, 0.2); */
+}
+
+.moreLinks .links_div {
+    box-shadow: 0 3px 10px rgba(202, 6, 6, 0.2);
+    display: none;
+    background-color: #fff;
+    z-index: 9999999;
+}
+
+.moreLinks:hover .links_div {
+    display: block;
+}
+
+.links_div:hover {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .left {
+        position: relative;
+        top: initial;
+    }
+}

@@ -1,0 +1,49 @@
+.footer_main{
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    padding: 2vmax 1vmax;
+}
+.row1{
+    display: flex;
+   justify-content: center;
+}
+.row1 p{
+    font-size: 15px;
+    position: relative;
+    padding: 0 10px;
+}
+.row1 p::after{
+    position: absolute;
+    content: "";
+    height: 80%;
+    width: 1px;
+    background-color: rgb(138, 138, 138);
+    top: 20%;
+    right: 0;
+}
+.row2{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 1vmax;
+   font-size: 15px;
+}
+
+@media (max-width:1050px) {
+    .row1 p::after{
+        display: none;
+    }
+}
+@media (max-width:731px) {
+   
+    .row1{
+        flex-direction: column;
+        padding: 0 3px;
+        margin: 0%;
+    }
+    .row2{
+        text-align: start;
+        padding: 0 10px;
+    }
+
+}

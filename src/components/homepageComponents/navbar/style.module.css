@@ -1,0 +1,23 @@
+.navlink {
+  color: #dc3545;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 0.7rem;
+}
+.navlink:hover {
+  color: #ff0019;
+}
+.navlink.active {
+  color: #dd0f23;
+}
+.form::-webkit-input-placeholder {
+  color: #dc3545 !important;
+}
+
+.form::-moz-placeholder {
+  color: #dc3545 !important;
+}
+
+.form:-ms-input-placeholder {
+  color: #dc3545 !important;
+}

@@ -1,0 +1,14 @@
+.info_main{
+    width: 100%;
+    padding: 2vmax;
+    background-color: rgb(235, 235, 235);
+}
+.column p{
+    margin: 0;
+    font-size: 13px;
+    color: gray;
+    cursor: pointer;
+}
+.column p:hover{
+    color: rgb(255, 31, 31);
+}

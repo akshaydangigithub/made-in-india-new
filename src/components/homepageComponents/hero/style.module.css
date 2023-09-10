@@ -1,0 +1,103 @@
+.hero_main {
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+   padding-left: 1.5vmax;
+   padding-right: 1.5vmax;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 1.5vmax 0;
+    padding-top: 0%;
+}
+
+.left {
+    height: 100%;
+    width: 20%;
+    padding: 2vmax;
+}
+
+.left .links {
+    margin-top: 2vmax;
+}
+
+.left .links p {
+    margin-bottom: 8px;
+}
+
+.right {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-right: 1vmax 2vmax;
+}
+
+.crousel {
+    padding-top: 0vmax;
+    height: 71%;
+    width: 100%;
+}
+
+.crousel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.right_btm {
+    display: flex;
+    height: 29%;
+    width: 100%;
+    gap: 10px;
+}
+
+.right_btm_prt1,
+.right_btm_prt2,
+.right_btm_prt3 {
+    height: 70%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.right_btm img {
+    height: 90%;
+    width: 100%;
+    background-position: center;
+}
+
+.bx-grid-alt {
+    display: none;
+}
+
+.submenu {
+    display: none;
+}
+
+@media (max-width:1060px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .submenu {
+        display: initial;
+        cursor: pointer;
+    }
+
+    .right {
+        width: 100%;
+        padding: 0 1vmax;
+    }
+}

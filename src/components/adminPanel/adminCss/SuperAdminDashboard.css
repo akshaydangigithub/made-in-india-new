@@ -1,0 +1,11 @@
+.colHeight {
+    background: #3498db;
+    height: 2500px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .colHeight {
+        background: #3498db;
+        height: 150px !important;
+    }
+}

@@ -1,0 +1,36 @@
+.items_main{
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    padding: 1.5vmax;
+}
+.items{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 2vmax;
+}
+.top{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vmax 0;
+}
+.top img{
+    width: 60%;
+    object-fit: cover;
+}
+.btm{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3vmax;
+
+}
+.btm p{
+    text-decoration: none;
+    color: black;
+}
